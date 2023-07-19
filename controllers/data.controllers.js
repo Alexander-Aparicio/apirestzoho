@@ -50,6 +50,7 @@ const dataPost = (req, res = response) => {
       res.json({
         msj: "ERROR EN EL ENVÍO",
         body,
+        error
       });
     });
 };
