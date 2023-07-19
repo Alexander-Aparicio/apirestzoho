@@ -25,9 +25,9 @@ const dataPost = (req, res = response) => {
     ],
   });
 
-  // let token = process.env.TOKEN;
-  let token =
-    "1000.2dec8a9b3224e57a25694eebe02a45f4.a9e3d477f776116c5ba10e6e31ab0629";
+  let token = process.env.TOKEN;
+  // let token =
+  //   "1000.2dec8a9b3224e57a25694eebe02a45f4.a9e3d477f776116c5ba10e6e31ab0629";
 
   let headers = {
     Authorization: `Zoho-oauthtoken ${token}`,
